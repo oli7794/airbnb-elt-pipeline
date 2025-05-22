@@ -5,6 +5,11 @@ End-to-end ELT pipeline using Airflow, dbt, and Postgres for Airbnb and Census d
 
 This project builds a production-ready ELT pipeline using Airflow and dbt Cloud to process Airbnb and Census data for Sydney. It uses a Medallion architecture and supports business insights via a data mart layer.
 
+## Datasets
+- Airbnb data (Partial data)
+- Census data
+- LGA-Suburb mapping: 
+
 ## Tech Stack
 - Apache Airflow (Cloud Composer)
 - PostgreSQL (hosted on GCP)
@@ -25,7 +30,7 @@ This project builds a production-ready ELT pipeline using Airflow and dbt Cloud 
 - Host distribution across LGAs
 - Revenue vs median mortgage repayments
 
-## 📈 Outputs
+## Outputs
 - 3 Data Marts:
   - `dm_listing_neighbourhood`
   - `dm_property_type`
